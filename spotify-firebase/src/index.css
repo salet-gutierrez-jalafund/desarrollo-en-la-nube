@@ -1,0 +1,264 @@
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #191414;
+  color: #FFFFFF;
+}
+
+.header {
+  background: #000000;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.header-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1DB954;
+  margin: 0;
+}
+
+nav a, nav button {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+nav a:hover, nav button:hover {
+  color: #1DB954;
+}
+
+a {
+  color: #FFFFFF;
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #1DB954;
+}
+
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.user-info {
+  color: #1DB954;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-right: 20px;
+}
+
+.arrow-down {
+  font-size: 12px;
+  color: #b9b9b9;
+}
+
+.user-popup {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: #282828;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  padding: 10px;
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  color: #FFFFFF;
+  font-size: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.logout-button:hover {
+  background: rgba(29, 185, 84, 0.5);
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  background: #1DB954;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background: #1ED760;
+  color: #FFFFFF;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 80px auto 20px;
+  padding: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #282828;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.card-actions {
+  margin-top: 10px;
+}
+
+.card-actions a, .card-actions button {
+  margin: 0 5px;
+  padding: 8px 16px;
+  background: #1DB954;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.card-actions a:hover, .card-actions button:hover {
+  background: #1ED760;
+}
+
+.button-delete{
+  font-size: 14px;
+}
+
+.song-card {
+  background: #282828;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.song-content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.song-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.song-details {
+  flex: 1;
+}
+
+.song-details h3 {
+  margin: 0 0 10px 0;
+}
+
+.song-details audio {
+  width: 100%;
+}
+
+.auth-container, .form-container {
+  max-width: 400px;
+  margin: 180px auto 80px auto;
+  padding: 40px 60px 60px 40px;
+  background: #282828;
+  border-radius: 8px;
+}
+
+.auth-container h2, .form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container input, .form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 4px;
+  background: #3C3C3C;
+  color: #FFFFFF;
+}
+
+.auth-container button, .form-container button {
+  width: 105%;
+  padding: 10px;
+  background: #1DB954;
+  border: none;
+  border-radius: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.auth-container button:hover, .form-container button:hover {
+  background: #1ED760;
+}
+
+.error {
+  color: #FF4C4C;
+  font-size: 14px;
+  margin-top: 5px;
+}

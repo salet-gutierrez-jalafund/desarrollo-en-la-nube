@@ -1,1 +1,16 @@
 # desarrollo-en-la-nube
+
+Para el Proyecto ubicado en el spotify-firebase por favor crear la carpeta 
+`.env` para que pueda ingresar sus datos, lo cual tena esata estructura:
+
+```
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+VITE_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+VITE_CLOUDINARY_UPLOAD_PRESET=your_cloudinary_upload_preset
+VITE_ADMIN_EMAIL=your_email_admin
+```
